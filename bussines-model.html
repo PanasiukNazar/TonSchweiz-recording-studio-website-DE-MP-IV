@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TonSchweiz</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--===============================================================================================-->
+        <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/bootstrap/css/bootstrap.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/themify/themify-icons.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/animate/animate.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/css-hamburgers/hamburgers.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/animsition/css/animsition.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/select2/select2.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/daterangepicker/daterangepicker.css"
+        />
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/lightbox2/css/lightbox.min.css"
+        />
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="css/util.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <!--===============================================================================================-->
+    </head>
+    <body class="animsition">
+        <!-- Header -->
+        <header class="header-fixed">
+            <!-- Header desktop -->
+            <div class="wrap-menu-header gradient1 trans-0-4">
+                <div class="container h-full">
+                    <div class="wrap_header trans-0-3">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html">
+                                <h4 style="font-weight: bold; color: #ec1d25">
+                                    TonSchweiz
+                                </h4>
+                            </a>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="wrap_menu p-l-45 p-l-0-xl">
+                            <nav class="menu">
+                                <ul class="main_menu">
+                                    <li>
+                                        <a href="index.html">Startseite</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="songs-production.html"
+                                            >Songproduktion</a
+                                        >
+                                    </li>
+
+                                    <li>
+                                        <a href="songs-from-scratch.html"
+                                            >Songs von Grund auf</a
+                                        >
+                                    </li>
+
+                                    <li>
+                                        <a href="about.html">Über uns</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="prices.html">Preise</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <!-- Social -->
+                        <div class="social flex-w flex-l-m p-r-20">
+                            <button
+                                class="btn-show-sidebar m-l-33 trans-0-4"
+                            ></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sidebar -->
+        <aside class="sidebar trans-0-4">
+            <!-- Button Sidebar ausblenden -->
+            <button
+                class="btn-hide-sidebar ti-close color0-hov trans-0-4"
+            ></button>
+
+            <!-- - -->
+            <ul class="menu-sidebar p-t-95 p-b-70">
+                <li class="t-center m-b-13">
+                    <a href="index.html" class="txt19">Startseite</a>
+                </li>
+
+                <li class="t-center m-b-13">
+                    <a href="songs-production.html" class="txt19"
+                        >Songproduktion</a
+                    >
+                </li>
+
+                <li class="t-center m-b-13">
+                    <a href="songs-from-scratch.html" class="txt19"
+                        >Songs von Grund auf</a
+                    >
+                </li>
+
+                <li class="t-center m-b-13">
+                    <a href="about.html" class="txt19">Über uns</a>
+                </li>
+
+                <li class="t-center m-b-13">
+                    <a href="prices.html" class="txt19">Preise</a>
+                </li>
+
+                <li class="t-center m-b-33">
+                    <a href="contact.html" class="txt19">Kontakt</a>
+                </li>
+
+                <li class="t-center">
+                    <!-- Button3 -->
+                    <a
+                        href="contact.html"
+                        class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto"
+                    >
+                        Kontaktieren Sie uns
+                    </a>
+                </li>
+            </ul>
+
+            <!-- - -->
+            <div class="gallery-sidebar t-center p-l-60 p-r-60 p-b-40">
+                <!-- - -->
+                <h4 class="txt20 m-b-33">Galerie</h4>
+
+                <!-- Galerie -->
+                <div class="wrap-gallery-sidebar flex-w">
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-01.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-01.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-02.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-02.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-03.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-03.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-05.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-05.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-06.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-06.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-07.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-07.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-09.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-09.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-10.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-10.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-11.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-11.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <article
+                class="container additional-wrapper"
+                style="margin-top: 100px"
+            >
+                <div class="page__content" style="padding: 20px 0px">
+                    <h1>Geschäftsmodell</h1>
+
+                    <h2>1. Einleitung</h2>
+                    <p>
+                        Unser Geschäftsmodell basiert auf der Bereitstellung
+                        hochwertiger Aufnahmedienste für Musiker, Bands und
+                        andere Kreative. Unser Ziel ist es, Ihnen eine Plattform
+                        zu bieten, auf der Sie Ihre kreativen Visionen in die
+                        Realität umsetzen können. Wir kombinieren modernste
+                        Technologie mit einem erfahrenen Team, um erstklassige
+                        Aufnahme- und Produktionsdienstleistungen zu bieten.
+                    </p>
+
+                    <h2>2. Dienstleistungen</h2>
+                    <p>
+                        Wir bieten eine breite Palette von Dienstleistungen an,
+                        die auf die Bedürfnisse unserer Kunden zugeschnitten
+                        sind:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Aufnahmedienstleistungen:</strong>
+                            Professionelle Audioaufnahmen in unseren modernen
+                            Studios.
+                        </li>
+                        <li>
+                            <strong>Misch- und Mastering-Dienste:</strong>
+                            Hochwertige Nachbearbeitung von Audioaufnahmen.
+                        </li>
+                        <li>
+                            <strong>Musikproduktion:</strong> Unterstützung bei
+                            der Erstellung und Produktion von Musikprojekten.
+                        </li>
+                        <li>
+                            <strong>Vermietung von Studiozeit:</strong> Flexible
+                            Mietoptionen für unsere Aufnahmestudios.
+                        </li>
+                    </ul>
+
+                    <h2>3. Geschäftsmodell</h2>
+                    <p>
+                        Unser Geschäftsmodell basiert auf mehreren
+                        Einnahmequellen:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Studiomieten:</strong> Kunden zahlen für die
+                            Nutzung unserer Aufnahmestudios pro Stunde oder pro
+                            Tag.
+                        </li>
+                        <li>
+                            <strong>Projektgebühren:</strong> Pauschalgebühren
+                            für Misch- und Mastering-Dienste sowie
+                            Musikproduktionsprojekte.
+                        </li>
+                        <li>
+                            <strong>Zusatzdienste:</strong> Einnahmen aus der
+                            Vermietung von Ausrüstung, Workshops und Schulungen.
+                        </li>
+                    </ul>
+
+                    <h2>4. Zielgruppen</h2>
+                    <p>Unsere Hauptzielgruppen sind:</p>
+                    <ul>
+                        <li>
+                            <strong>Musiker und Bands:</strong> Künstler, die
+                            professionelle Aufnahmen und Produktionsdienste
+                            benötigen.
+                        </li>
+                        <li>
+                            <strong>Produzenten:</strong> Fachleute, die Zugang
+                            zu hochwertiger Aufnahmetechnik und Studios
+                            benötigen.
+                        </li>
+                        <li>
+                            <strong>Werbeagenturen:</strong> Unternehmen, die
+                            Audioinhalte für Werbung und Marketing produzieren.
+                        </li>
+                    </ul>
+
+                    <h2>5. Wettbewerbsvorteile</h2>
+                    <p>
+                        Wir bieten mehrere Wettbewerbsvorteile, die uns von
+                        anderen Anbietern abheben:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Modernste Technologie:</strong> Unsere
+                            Studios sind mit den neuesten Aufnahme- und
+                            Produktionstechnologien ausgestattet.
+                        </li>
+                        <li>
+                            <strong>Erfahrenes Team:</strong> Unsere Mitarbeiter
+                            sind erfahrene Fachleute aus der Musik- und
+                            Audioindustrie.
+                        </li>
+                        <li>
+                            <strong>Flexibilität:</strong> Wir bieten flexible
+                            Mietoptionen und maßgeschneiderte Dienstleistungen.
+                        </li>
+                        <li>
+                            <strong>Kundenzufriedenheit:</strong> Wir legen
+                            großen Wert auf die Zufriedenheit unserer Kunden und
+                            bieten einen erstklassigen Kundenservice.
+                        </li>
+                    </ul>
+
+                    <h2>6. Nachhaltigkeit</h2>
+                    <p>
+                        Wir sind uns unserer Verantwortung gegenüber der Umwelt
+                        bewusst und bemühen uns, nachhaltige Praktiken in
+                        unserem Betrieb zu integrieren. Dazu gehören:
+                    </p>
+                    <ul>
+                        <li>
+                            <strong>Energieeffiziente Technologien:</strong>
+                            Einsatz von energieeffizienten Geräten und
+                            Beleuchtung in unseren Studios.
+                        </li>
+                        <li>
+                            <strong>Recycling:</strong> Förderung von Recycling
+                            und Abfallreduzierung in unserem täglichen Betrieb.
+                        </li>
+                        <li>
+                            <strong>Nachhaltige Materialien:</strong> Verwendung
+                            von umweltfreundlichen Materialien in unseren
+                            Studioeinrichtungen.
+                        </li>
+                    </ul>
+
+                    <h2>7. Zukunftspläne</h2>
+                    <p>Wir haben ehrgeizige Pläne für die Zukunft, darunter:</p>
+                    <ul>
+                        <li>
+                            <strong>Erweiterung:</strong> Ausbau unserer
+                            Studioeinrichtungen und Dienstleistungen, um mehr
+                            Kunden bedienen zu können.
+                        </li>
+                        <li>
+                            <strong>Innovationen:</strong> Investition in neue
+                            Technologien und Methoden zur Verbesserung unserer
+                            Dienstleistungen.
+                        </li>
+                        <li>
+                            <strong>Partnerschaften:</strong> Aufbau
+                            strategischer Partnerschaften mit Künstlern,
+                            Produzenten und Unternehmen in der Musikindustrie.
+                        </li>
+                    </ul>
+
+                    <h2>8. Kontaktaufnahme</h2>
+                    <p>
+                        Wenn Sie mehr über unser Geschäftsmodell erfahren
+                        möchten oder Interesse an unseren Dienstleistungen
+                        haben, kontaktieren Sie uns bitte. Wir stehen Ihnen
+                        gerne zur Verfügung.
+                    </p>
+                </div>
+            </article>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg1">
+            <div class="container p-t-40 p-b-70">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 p-t-50">
+                        <!-- - -->
+                        <h4 class="txt13 m-b-33">Kontaktieren Sie uns</h4>
+
+                        <ul class="m-b-70">
+                            <li class="txt14 m-b-14">
+                                <i
+                                    class="fa fa-map-marker fs-16 dis-inline-block size19"
+                                    aria-hidden="true"
+                                ></i>
+                                Av. du Casino 32, 1820 Montreux, Schweiz
+                            </li>
+
+                            <li class="txt14 m-b-14">
+                                <i
+                                    class="fa fa-phone fs-16 dis-inline-block size19"
+                                    aria-hidden="true"
+                                ></i>
+                                +41798390897
+                            </li>
+
+                            <li class="txt14 m-b-14">
+                                <i
+                                    class="fa fa-envelope fs-13 dis-inline-block size19"
+                                    aria-hidden="true"
+                                ></i>
+                                ton_schweiz@gmail.com
+                            </li>
+                        </ul>
+
+                        <!-- - -->
+                        <h4 class="txt13 m-b-32">Öffnungszeiten</h4>
+
+                        <ul>
+                            <li class="txt14">09:30 Uhr – 21:00 Uhr</li>
+
+                            <li class="txt14">Täglich geöffnet</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 p-t-50">
+                        <!-- - -->
+                        <h4 class="txt13 m-b-33">Schnelllinks</h4>
+                        <ul style="display: flex; flex-direction: column">
+                            <li><a href="index.html">Startseite</a></li>
+
+                            <li><a href="about.html">Über uns</a></li>
+
+                            <li>
+                                <a href="privacy-policy.html">Datenschutz</a>
+                            </li>
+
+                            <li>
+                                <a href="terms-of-use.html"
+                                    >Nutzungsbedingungen</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 p-t-50">
+                        <!-- - -->
+                        <h4 class="txt13 m-b-38">Galerie</h4>
+
+                        <!-- Gallery footer -->
+                        <div class="wrap-gallery-footer flex-w">
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-01.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-01.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-02.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-02.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-03.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-03.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-04.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-04.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-05.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-05.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-06.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-06.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-07.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-07.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-08.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-08.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-09.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-09.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-10.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-10.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-11.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-11.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-12.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-12.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="end-footer bg2">
+                <div class="container">
+                    <div class="flex-sb-m flex-w p-t-22 p-b-22">
+                        <div class="txt17 p-r-20 p-t-5 p-b-5">
+                            Haftungsausschluss: Die Informationen auf dieser
+                            Website sind nicht als Rechtsberatung gedacht und
+                            begründen kein Mandatsverhältnis. Die hier zur
+                            Verfügung gestellten Informationen, Dokumente oder
+                            Formulare dienen nur allgemeinen Informationszwecken
+                            und sollten nicht als Rechtsberatung angesehen
+                            werden. Die Gesetze ändern sich regelmäßig; daher
+                            kann es sein, dass die Informationen auf dieser
+                            Website nicht korrekt sind. Es ist unbedingt
+                            erforderlich, dass Sie sich rechtlich beraten
+                            lassen, um Ihre Rechte und Pflichten nach geltendem
+                            Recht und unter Berücksichtigung Ihrer besonderen
+                            Umstände zu bestimmen.olorlib can't be removed.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to top -->
+        <div class="btn-back-to-top bg0-hov" id="myBtn">
+            <span class="symbol-btn-back-to-top">
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+            </span>
+        </div>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    besseres und relevanteres Surferlebnis auf der Website zu
+                    ermöglichen.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Rückgang</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Container Selection1 -->
+        <div id="dropDownSelect1"></div>
+
+        <!-- Modal Video 01-->
+        <div
+            class="modal fade"
+            id="modal-video-01"
+            tabindex="-1"
+            role="dialog"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog" role="document" data-dismiss="modal">
+                <div
+                    class="close-mo-video-01 trans-0-4"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                >
+                    &times;
+                </div>
+
+                <div class="wrap-video-mo-01">
+                    <div class="w-full wrap-pic-w op-0-0">
+                        <img src="images/icons/video-16-9.jpg" alt="IMG" />
+                    </div>
+                    <div class="video-mo-01">
+                        <iframe
+                            src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/jquery/jquery-3.2.1.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/animsition/js/animsition.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/bootstrap/js/popper.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="vendor/bootstrap/js/bootstrap.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/select2/select2.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/daterangepicker/moment.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="vendor/daterangepicker/daterangepicker.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/slick-custom.js"></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/parallax100/parallax100.js"
+        ></script>
+        <script type="text/javascript">
+            $('.parallax100').parallax100();
+        </script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/countdowntime/countdowntime.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/lightbox2/js/lightbox.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

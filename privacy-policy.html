@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TonSchweiz</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--===============================================================================================-->
+        <link rel="icon" type="image/png" href="images/icons/favicon.png" />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/bootstrap/css/bootstrap.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="fonts/themify/themify-icons.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/animate/animate.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/css-hamburgers/hamburgers.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/animsition/css/animsition.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/select2/select2.min.css"
+        />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/daterangepicker/daterangepicker.css"
+        />
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
+        <!--===============================================================================================-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="vendor/lightbox2/css/lightbox.min.css"
+        />
+        <!--===============================================================================================-->
+        <link rel="stylesheet" type="text/css" href="css/util.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <!--===============================================================================================-->
+    </head>
+    <body class="animsition">
+        <!-- Header -->
+        <header class="header-fixed">
+            <!-- Header desktop -->
+            <div class="wrap-menu-header gradient1 trans-0-4">
+                <div class="container h-full">
+                    <div class="wrap_header trans-0-3">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html">
+                                <h4 style="font-weight: bold; color: #ec1d25">
+                                    TonSchweiz
+                                </h4>
+                            </a>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="wrap_menu p-l-45 p-l-0-xl">
+                            <nav class="menu">
+                                <ul class="main_menu">
+                                    <li>
+                                        <a href="index.html">Startseite</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="songs-production.html"
+                                            >Songproduktion</a
+                                        >
+                                    </li>
+
+                                    <li>
+                                        <a href="songs-from-scratch.html"
+                                            >Songs von Grund auf</a
+                                        >
+                                    </li>
+
+                                    <li>
+                                        <a href="about.html">Über uns</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="prices.html">Preise</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <!-- Social -->
+                        <div class="social flex-w flex-l-m p-r-20">
+                            <button
+                                class="btn-show-sidebar m-l-33 trans-0-4"
+                            ></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Sidebar -->
+        <aside class="sidebar trans-0-4">
+            <!-- Button Sidebar ausblenden -->
+            <button
+                class="btn-hide-sidebar ti-close color0-hov trans-0-4"
+            ></button>
+
+            <!-- - -->
+            <ul class="menu-sidebar p-t-95 p-b-70">
+                <li class="t-center m-b-13">
+                    <a href="index.html" class="txt19">Startseite</a>
+                </li>
+
+                <li class="t-center m-b-13">
+                    <a href="songs-production.html" class="txt19"
+                        >Songproduktion</a
+                    >
+                </li>
+
+                <li class="t-center m-b-13">
+                    <a href="songs-from-scratch.html" class="txt19"
+                        >Songs von Grund auf</a
+                    >
+                </li>
+
+                <li class="t-center m-b-13">
+                    <a href="about.html" class="txt19">Über uns</a>
+                </li>
+
+                <li class="t-center m-b-13">
+                    <a href="prices.html" class="txt19">Preise</a>
+                </li>
+
+                <li class="t-center m-b-33">
+                    <a href="contact.html" class="txt19">Kontakt</a>
+                </li>
+
+                <li class="t-center">
+                    <!-- Button3 -->
+                    <a
+                        href="contact.html"
+                        class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto"
+                    >
+                        Kontaktieren Sie uns
+                    </a>
+                </li>
+            </ul>
+
+            <!-- - -->
+            <div class="gallery-sidebar t-center p-l-60 p-r-60 p-b-40">
+                <!-- - -->
+                <h4 class="txt20 m-b-33">Galerie</h4>
+
+                <!-- Galerie -->
+                <div class="wrap-gallery-sidebar flex-w">
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-01.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-01.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-02.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-02.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-03.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-03.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-05.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-05.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-06.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-06.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-07.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-07.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-09.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-09.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-10.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-10.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+
+                    <a
+                        class="item-gallery-sidebar wrap-pic-w"
+                        href="images/photo-gallery-11.jpg"
+                        data-lightbox="gallery-footer"
+                    >
+                        <img
+                            src="images/photo-gallery-thumb-11.jpg"
+                            alt="GALERIE"
+                        />
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <article
+                class="container additional-wrapper"
+                style="margin-top: 100px"
+            >
+                <div class="page__content" style="padding: 20px 0px">
+                    <h1>Datenschutzerklärung</h1>
+
+                    <h2>1. Einleitung</h2>
+                    <p>
+                        Willkommen auf unserer Webseite. Der Schutz Ihrer
+                        persönlichen Daten ist uns ein wichtiges Anliegen. Diese
+                        Datenschutzerklärung informiert Sie darüber, welche
+                        Daten wir erheben, wie wir sie verwenden und welche
+                        Rechte Sie in Bezug auf Ihre Daten haben. Die Nutzung
+                        unserer Webseite ist in der Regel ohne Angabe
+                        personenbezogener Daten möglich. Soweit auf unseren
+                        Seiten personenbezogene Daten erhoben werden, erfolgt
+                        dies, soweit möglich, stets auf freiwilliger Basis.
+                    </p>
+
+                    <h2>2. Verantwortliche Stelle</h2>
+                    <p>
+                        Die verantwortliche Stelle für die Datenverarbeitung auf
+                        dieser Webseite ist unser Unternehmen, dessen Sitz in
+                        der Schweiz ist. Für Fragen zum Datenschutz können Sie
+                        sich jederzeit an uns wenden.
+                    </p>
+
+                    <h2>
+                        3. Erhebung und Verarbeitung personenbezogener Daten
+                    </h2>
+                    <p>
+                        Wir erheben und verarbeiten personenbezogene Daten nur,
+                        soweit dies zur Bereitstellung einer funktionsfähigen
+                        Webseite sowie unserer Inhalte und Leistungen
+                        erforderlich ist. Zu den personenbezogenen Daten zählen
+                        alle Informationen, die sich auf eine identifizierte
+                        oder identifizierbare natürliche Person beziehen.
+                    </p>
+
+                    <h2>4. Daten, die wir erheben</h2>
+                    <p>
+                        <strong>a. Server-Logfiles:</strong> Bei jedem Zugriff
+                        auf unsere Webseite werden automatisch Informationen
+                        erfasst, die Ihr Browser an uns übermittelt. Dies sind:
+                    </p>
+                    <ul>
+                        <li>IP-Adresse</li>
+                        <li>Datum und Uhrzeit des Zugriffs</li>
+                        <li>Name und URL der abgerufenen Datei</li>
+                        <li>
+                            Webseite, von der aus der Zugriff erfolgt
+                            (Referrer-URL)
+                        </li>
+                        <li>
+                            Verwendeter Browser und ggf. das Betriebssystem
+                            Ihres Rechners sowie der Name Ihres Access-Providers
+                        </li>
+                    </ul>
+
+                    <p>
+                        <strong>b. Kontaktformular:</strong> Wenn Sie uns per
+                        Kontaktformular Anfragen zukommen lassen, werden Ihre
+                        Angaben aus dem Anfrageformular inklusive der von Ihnen
+                        dort angegebenen Kontaktdaten zwecks Bearbeitung der
+                        Anfrage und für den Fall von Anschlussfragen bei uns
+                        gespeichert.
+                    </p>
+
+                    <p>
+                        <strong>c. Registrierung:</strong> Wenn Sie sich auf
+                        unserer Webseite registrieren, erheben wir folgende
+                        Daten:
+                    </p>
+                    <ul>
+                        <li>Name</li>
+                        <li>E-Mail-Adresse</li>
+                        <li>Passwort</li>
+                    </ul>
+
+                    <h2>5. Verwendung Ihrer Daten</h2>
+                    <p>
+                        Wir verwenden die erhobenen Daten für folgende Zwecke:
+                    </p>
+                    <ul>
+                        <li>
+                            Zur Bereitstellung, Wartung und Verbesserung unserer
+                            Webseite
+                        </li>
+                        <li>Zur Bearbeitung Ihrer Anfragen und Anmeldungen</li>
+                        <li>Zur Erfüllung unserer vertraglichen Pflichten</li>
+                        <li>
+                            Zur Analyse und Verbesserung der Effektivität
+                            unserer Webseite
+                        </li>
+                    </ul>
+
+                    <h2>6. Weitergabe Ihrer Daten an Dritte</h2>
+                    <p>
+                        Eine Weitergabe Ihrer persönlichen Daten an Dritte
+                        erfolgt nur, wenn dies zur Vertragserfüllung notwendig
+                        ist oder Sie ausdrücklich eingewilligt haben. Eine
+                        darüber hinausgehende Weitergabe erfolgt nur, wenn wir
+                        gesetzlich dazu verpflichtet sind.
+                    </p>
+
+                    <h2>7. Verwendung von Google Ads</h2>
+                    <p>
+                        Unsere Webseite nutzt Google Ads, einen Dienst zur
+                        Einbindung von Werbeanzeigen. Google Ads verwendet
+                        Cookies, die eine Analyse der Benutzung der Webseite
+                        durch Sie ermöglicht. Die durch die Cookies erzeugten
+                        Informationen über Ihre Benutzung dieser Webseite werden
+                        in der Regel an einen Server von Google in den USA
+                        übertragen und dort gespeichert. Google wird diese
+                        Informationen benutzen, um Ihre Nutzung der Webseite
+                        auszuwerten, um Reports über die Webseitenaktivitäten
+                        für die Webseitenbetreiber zusammenzustellen und um
+                        weitere mit der Webseitennutzung und der Internetnutzung
+                        verbundene Dienstleistungen zu erbringen.
+                    </p>
+
+                    <h2>8. Ihre Rechte</h2>
+                    <p>Sie haben das Recht:</p>
+                    <ul>
+                        <li>
+                            Auskunft über Ihre bei uns gespeicherten Daten zu
+                            erhalten
+                        </li>
+                        <li>
+                            Berichtigung unrichtiger personenbezogener Daten zu
+                            verlangen
+                        </li>
+                        <li>
+                            Löschung Ihrer bei uns gespeicherten Daten zu
+                            verlangen, soweit keine gesetzliche
+                            Aufbewahrungspflicht besteht
+                        </li>
+                        <li>
+                            Einschränkung der Verarbeitung Ihrer Daten zu
+                            verlangen
+                        </li>
+                        <li>
+                            Widerspruch gegen die Verarbeitung Ihrer Daten
+                            einzulegen
+                        </li>
+                        <li>Datenübertragbarkeit zu verlangen</li>
+                    </ul>
+
+                    <h2>9. Dauer der Speicherung</h2>
+                    <p>
+                        Wir speichern Ihre personenbezogenen Daten nur so lange,
+                        wie dies für die Erfüllung der Zwecke, für die sie
+                        erhoben wurden, notwendig ist oder wie es gesetzlich
+                        vorgeschrieben ist.
+                    </p>
+
+                    <h2>10. Sicherheit</h2>
+                    <p>
+                        Wir setzen technische und organisatorische
+                        Sicherheitsmaßnahmen ein, um Ihre durch uns verwalteten
+                        Daten gegen zufällige oder vorsätzliche Manipulationen,
+                        Verlust, Zerstörung oder gegen den Zugriff
+                        unberechtigter Personen zu schützen. Unsere
+                        Sicherheitsmaßnahmen werden entsprechend der
+                        technologischen Entwicklung fortlaufend verbessert.
+                    </p>
+
+                    <h2>11. Änderungen der Datenschutzerklärung</h2>
+                    <p>
+                        Wir behalten uns das Recht vor, diese
+                        Datenschutzerklärung jederzeit mit Wirkung für die
+                        Zukunft zu ändern. Eine aktuelle Version ist stets auf
+                        unserer Webseite verfügbar.
+                    </p>
+
+                    <h2>12. Kontaktaufnahme</h2>
+                    <p>
+                        Wenn Sie Fragen zum Datenschutz haben, wenden Sie sich
+                        bitte an uns. Wir helfen Ihnen gerne weiter.
+                    </p>
+
+                    <p>
+                        Diese Datenschutzerklärung wurde erstellt, um den
+                        gesetzlichen Anforderungen zu entsprechen und Ihnen
+                        einen transparenten Überblick über die Verarbeitung
+                        Ihrer Daten auf unserer Webseite zu geben. Wir danken
+                        Ihnen für Ihr Vertrauen und versichern Ihnen, dass wir
+                        Ihre Daten mit größter Sorgfalt und Verantwortlichkeit
+                        behandeln.
+                    </p>
+                </div>
+            </article>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg1">
+            <div class="container p-t-40 p-b-70">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 p-t-50">
+                        <!-- - -->
+                        <h4 class="txt13 m-b-33">Kontaktieren Sie uns</h4>
+
+                        <ul class="m-b-70">
+                            <li class="txt14 m-b-14">
+                                <i
+                                    class="fa fa-map-marker fs-16 dis-inline-block size19"
+                                    aria-hidden="true"
+                                ></i>
+                                Av. du Casino 32, 1820 Montreux, Schweiz
+                            </li>
+
+                            <li class="txt14 m-b-14">
+                                <i
+                                    class="fa fa-phone fs-16 dis-inline-block size19"
+                                    aria-hidden="true"
+                                ></i>
+                                +41798390897
+                            </li>
+
+                            <li class="txt14 m-b-14">
+                                <i
+                                    class="fa fa-envelope fs-13 dis-inline-block size19"
+                                    aria-hidden="true"
+                                ></i>
+                                ton_schweiz@gmail.com
+                            </li>
+                        </ul>
+
+                        <!-- - -->
+                        <h4 class="txt13 m-b-32">Öffnungszeiten</h4>
+
+                        <ul>
+                            <li class="txt14">09:30 Uhr – 21:00 Uhr</li>
+
+                            <li class="txt14">Täglich geöffnet</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 p-t-50">
+                        <!-- - -->
+                        <h4 class="txt13 m-b-33">Schnelllinks</h4>
+                        <ul style="display: flex; flex-direction: column">
+                            <li><a href="index.html">Startseite</a></li>
+
+                            <li><a href="about.html">Über uns</a></li>
+
+                            <li>
+                                <a href="terms-of-use.html"
+                                    >Nutzungsbedingungen</a
+                                >
+                            </li>
+
+                            <li>
+                                <a href="bussines-model.html"
+                                    >Geschäftsmodell</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 p-t-50">
+                        <!-- - -->
+                        <h4 class="txt13 m-b-38">Galerie</h4>
+
+                        <!-- Gallery footer -->
+                        <div class="wrap-gallery-footer flex-w">
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-01.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-01.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-02.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-02.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-03.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-03.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-04.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-04.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-05.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-05.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-06.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-06.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-07.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-07.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-08.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-08.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-09.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-09.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-10.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-10.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-11.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-11.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+
+                            <a
+                                class="item-gallery-footer wrap-pic-w"
+                                href="images/photo-gallery-12.jpg"
+                                data-lightbox="gallery-footer"
+                            >
+                                <img
+                                    src="images/photo-gallery-thumb-12.jpg"
+                                    alt="GALLERY"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="end-footer bg2">
+                <div class="container">
+                    <div class="flex-sb-m flex-w p-t-22 p-b-22">
+                        <div class="txt17 p-r-20 p-t-5 p-b-5">
+                            Haftungsausschluss: Die Informationen auf dieser
+                            Website sind nicht als Rechtsberatung gedacht und
+                            begründen kein Mandatsverhältnis. Die hier zur
+                            Verfügung gestellten Informationen, Dokumente oder
+                            Formulare dienen nur allgemeinen Informationszwecken
+                            und sollten nicht als Rechtsberatung angesehen
+                            werden. Die Gesetze ändern sich regelmäßig; daher
+                            kann es sein, dass die Informationen auf dieser
+                            Website nicht korrekt sind. Es ist unbedingt
+                            erforderlich, dass Sie sich rechtlich beraten
+                            lassen, um Ihre Rechte und Pflichten nach geltendem
+                            Recht und unter Berücksichtigung Ihrer besonderen
+                            Umstände zu bestimmen.olorlib can't be removed.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Back to top -->
+        <div class="btn-back-to-top bg0-hov" id="myBtn">
+            <span class="symbol-btn-back-to-top">
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+            </span>
+        </div>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie-Zustimmung</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Diese Website verwendet Cookies, um Ihnen ein besseres und
+                    besseres und relevanteres Surferlebnis auf der Website zu
+                    ermöglichen.
+                    <a href="#">Mehr erfahren...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">
+                    Akzeptieren
+                </button>
+                <button class="cookie-button" id="declineBtn">Rückgang</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- Container Selection1 -->
+        <div id="dropDownSelect1"></div>
+
+        <!-- Modal Video 01-->
+        <div
+            class="modal fade"
+            id="modal-video-01"
+            tabindex="-1"
+            role="dialog"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog" role="document" data-dismiss="modal">
+                <div
+                    class="close-mo-video-01 trans-0-4"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                >
+                    &times;
+                </div>
+
+                <div class="wrap-video-mo-01">
+                    <div class="w-full wrap-pic-w op-0-0">
+                        <img src="images/icons/video-16-9.jpg" alt="IMG" />
+                    </div>
+                    <div class="video-mo-01">
+                        <iframe
+                            src="https://www.youtube.com/embed/5k1hSu2gdKE?rel=0&amp;showinfo=0"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/jquery/jquery-3.2.1.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/animsition/js/animsition.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/bootstrap/js/popper.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="vendor/bootstrap/js/bootstrap.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/select2/select2.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/daterangepicker/moment.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="vendor/daterangepicker/daterangepicker.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+        <script type="text/javascript" src="js/slick-custom.js"></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/parallax100/parallax100.js"
+        ></script>
+        <script type="text/javascript">
+            $('.parallax100').parallax100();
+        </script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/countdowntime/countdowntime.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script
+            type="text/javascript"
+            src="vendor/lightbox2/js/lightbox.min.js"
+        ></script>
+        <!--===============================================================================================-->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
