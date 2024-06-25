@@ -812,6 +812,13 @@ input[type='date' i] {
     height: 100vh;
 }
 
+@media (max-width: 574px) {
+    .next-slick1,
+    .prev-slick1 {
+        display: none !important;
+    }
+}
+
 .arrow-slick1,
 .arrow-slick2,
 .arrow-slick3 {
@@ -945,11 +952,11 @@ input[type='date' i] {
 
 @media (max-width: 576px) {
     .wrap-content-slide1 .tit1 {
-        font-size: 60px;
+        font-size: 20px;
     }
 
     .wrap-content-slide1 .txt1 {
-        font-size: 50px;
+        font-size: 20px;
     }
 }
 

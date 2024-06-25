@@ -114,7 +114,7 @@
     var linkLogo2 = $(logo).data('logofixed');
 
     $(window).on('scroll', function () {
-        if ($(this).scrollTop() > -1 && $(this).width() > 992) {
+        if ($(this).scrollTop() > -1 && $(this).width() > 0) {
             $(logo).attr('src', linkLogo2);
             $(header).addClass('header-fixed');
         } else {
